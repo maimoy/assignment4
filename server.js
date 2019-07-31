@@ -13,6 +13,7 @@ let app = express();
 
 app.use(logger('dev'));
 app.use(bodyParser.json());
+app.use(errorHandler());
 
 
 
